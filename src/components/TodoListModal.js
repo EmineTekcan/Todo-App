@@ -11,6 +11,7 @@ const db = getFirestore(firebase_app);
 
 const TodoListModal = ({ todoList, setShowVisible }) => {
 
+
     const [added, setAdded] = useState(false)
     const [todoName, setTodoName] = useState("")
 
@@ -44,6 +45,7 @@ const TodoListModal = ({ todoList, setShowVisible }) => {
                 todos: todos
             })
             setAdded(!added)
+
         } catch (error) {
             console.log(error)
         }

@@ -9,12 +9,10 @@ import { initializeApp } from 'firebase/app';
 
 // Initialize Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyCdR4DsFxA3gFEuUprNnh9nAiHapgj9NQg",
-    authDomain: "todoapp-2a7f3.firebaseapp.com",
-    projectId: "todoapp-2a7f3",
-    storageBucket: "todoapp-2a7f3.appspot.com",
-    messagingSenderId: "691025564299",
-    appId: "1:691025564299:web:9260c7fafdcfcedb6fba8e"
+    {/*
+
+    your firebase configuration
+   */}
   };
 
 export default firebase_app = initializeApp(firebaseConfig);
